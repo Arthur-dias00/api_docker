@@ -5,3 +5,8 @@ class ProdutosSchema(BaseModel):
     item: str
     peso: float
     numero_caixas: int
+
+class UserSchema(BaseModel):
+    id: int
+    username: str
+    password: str

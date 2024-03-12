@@ -1,5 +1,5 @@
 services:
-  postgresql:
+  postgresql_arthur:
       image: postgres
       environment:
         POSTGRES_USER: example
@@ -14,4 +14,4 @@ services:
       ports:
         - 5050:80
       depends_on:
-        - postgresql
+        - postgresql_arthur
